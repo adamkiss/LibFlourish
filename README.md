@@ -1,6 +1,10 @@
 # Flourish for ProcessWire v0.9.0
 
-ProcessWire wrapper around the great [unframework Flourish](http://flourishlib.com). Makes tracking of correct lib, and updating it in PW a breeze (when using with [Modules Manager](http://modules.processwire.com/modules/modules-manager/)). The module version mirrors the included Flourish version, so whenever Flourish is updated, this module is updated as well and voillá – you may use the new version.
+ProcessWire wrapper around the great [unframework Flourish](http://flourishlib.com).
+
+This module has the same version as the framework, so whenever update happens, your [Modules Manager](http://modules.processwire.com/modules/modules-manager/) will pick up new version and update the framework to latest version (if you're into that!).
+
+Happy hacking.
 
 ---
 
