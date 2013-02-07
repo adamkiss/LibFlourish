@@ -28,4 +28,4 @@ This inits the sole function of this wrapper – `spl_autoloader` for Flourish �
 
 # License
 
-My wrapper and the module file itself are licensed under [WTFPL](http://www.wtfpl.net/). Flourish classes are licensed under MIT License and created by [Will Bond](http://wbond.net/). Thanks Will.
+Wrapper – the module itself are licensed under [WTFPL](http://www.wtfpl.net/) and were created by [Adam Kiss](http://adamkiss.com). Flourish classes are licensed under MIT License and created by [Will Bond](http://wbond.net/). Thanks Will.
