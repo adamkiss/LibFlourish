@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Flourish Unframework for ProcessWire
+ *
+ * @author Adam Kiss - http://adamkiss.com/ (author of the wrapper)
+ * @author Will Bond - http://wbond.net/ (author of the unframework)
+**/
+
+class LibFlourish extends WireData implements Module {
+
+  public static function getModuleInfo() {
+    return array(
+      'title' => 'Flourish Unframework',
+      'version' => 90,
+      'summary' => 'Adds auto-loading functionality of Flourish classes to your PW install',
+      'singular' => true,
+      'autoload' => false
+      );
+  }
+
+  public function init() {
+    spl_autoload_register(array($this, 'flourishLoader'));
+  }
+
+  private function flourishLoader($class_name){
+    include "flourish/{$class_name}.php";
+  }
+}
